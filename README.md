@@ -2,6 +2,16 @@
 
 Academic PHP/MySQL reuse-marketplace prototype for listing items as swaps, donations or sales. It includes account registration/login, listing management, claim/transaction actions, an impact profile and administration pages.
 
+## Preview
+
+Local preview using the published fictional demo accounts and listings in a disposable MariaDB database: the landing page, authenticated marketplace, and listing details. No live exchange or payment was performed.
+
+![Home](docs/screenshots/home.png)
+
+![Dashboard](docs/screenshots/dashboard.png)
+
+![Item details](docs/screenshots/item-details.png)
+
 ## Run locally
 
 Use PHP 8 with `mysqli` and MySQL or MariaDB. Start an isolated local database, then import `sql/swapee.sql` with your database client. The script creates `swapee` and resets its tables; do not import it into a database containing work you need to keep.
